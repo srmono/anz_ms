@@ -1,6 +1,6 @@
 **Key things to keep in mind to ensure that your microservices architecture is robust, scalable, maintainable, and secure**
 
-##### Clear Business Domain:
+#### Clear Business Domain:
 Understand the business domain and define clear boundaries for your microservices. Each microservice should have a well-defined purpose and should be responsible for a specific set of functionalities.
 
 ### Decomposition Strategy: 
