@@ -54,6 +54,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public Users updateUser(Users user, int userId) {
 		Users existingUser = userRepo.findById(userId).get();
+		
 		existingUser.setName(user.getName());
 		existingUser.setAge(user.getAge());
 		existingUser.setSalary(user.getSalary());
