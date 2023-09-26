@@ -62,7 +62,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 # Hibernate Configuration
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.hibernate.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
 
 # Entity Scanning
 spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl

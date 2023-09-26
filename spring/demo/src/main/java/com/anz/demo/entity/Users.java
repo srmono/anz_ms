@@ -15,23 +15,20 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-//@Table(name = "users")
+@Table(name = "users")
 public class Users {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	//@Column(name = "user_id")
-	private int useId;
+	@Column(name = "user_id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
+	private int userId;
 	
-	//@Column(name = "name")
+	@Column(name = "name")
 	private String name;
 	
-	//@Column(name = "age")
+	@Column(name = "age")
 	private int age;
 	
-	//@Column(name = "salary")
+	@Column(name = "salary")
 	private float salary;
-	
-	//@Column(name = "department_id")
-	private int departmentId;
 }
